@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suprav Adhikari | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .section {
+      min-height: 100vh;
+      scroll-snap-align: start;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="text-green-200 font-sans" style="background: linear-gradient(to bottom, black, #064e3b); scroll-snap-type: y mandatory; overflow-y: scroll;">
+
+  <!-- Navigation -->
+  <header class="fixed w-full z-10 p-4 bg-black bg-opacity-80 backdrop-blur-sm flex justify-center space-x-6">
+    <a href="#about" class="hover:text-white font-bold">About</a>
+    <a href="#skills" class="hover:text-white font-bold">Skills</a>
+    <a href="#projects" class="hover:text-white font-bold">Projects</a>
+    <a href="#experience" class="hover:text-white font-bold">Experience</a>
+    <a href="#contact" class="hover:text-white font-bold">Contact</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section flex items-center justify-center px-6">
+    <div class="max-w-3xl text-center">
+      <h1 class="text-5xl font-bold mb-4">Suprav Adhikari</h1>
+      <p class="text-xl">Python/Odoo Developer | Aspiring ML & Cloud Engineer</p>
+      <p class="mt-4 text-green-300">From Kathmandu, building smart backend systems with a passion for Machine Learning and DevOps.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section px-6 pt-28 flex items-start justify-center bg-gradient-to-b from-black to-green-900">
+    <div class="max-w-4xl w-full">
+      <h2 class="text-4xl font-bold text-center mb-6">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+        <span>Python</span>
+        <span>Odoo</span>
+        <span>FastAPI</span>
+        <span>PostgreSQL</span>
+        <span>Docker</span>
+        <span>Linux/Ubuntu</span>
+        <span>Machine Learning</span>
+        <span>Tailwind CSS</span>
+        <span>JWT Auth</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section px-6 pt-28 flex items-start justify-center bg-gradient-to-b from-green-900 to-green-800">
+    <div class="max-w-4xl w-full">
+      <h2 class="text-4xl font-bold text-center mb-6">Projects</h2>
+      <ul class="space-y-4">
+        <li>
+          <h3 class="text-2xl font-semibold">📘 Journal Sentiment Analyzer</h3>
+          <p class="text-green-300">LLM-powered sentiment analysis tool with JWT auth, FastAPI backend, and article suggestions based on mood.</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">📦 Odoo IMEI Tracker</h3>
+          <p class="text-green-300">Internal stock module with device IMEI tracking for electronics logistics.</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">🌐 Portal Customizer</h3>
+          <p class="text-green-300">Custom Odoo frontend with OWL integration and portal UX redesign.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section px-6 pt-28 flex items-start justify-center bg-gradient-to-b from-green-800 to-green-700">
+    <div class="max-w-3xl w-full">
+      <h2 class="text-4xl font-bold text-center mb-6">Experience & Education</h2>
+      <ul class="list-disc list-inside space-y-3 text-green-300">
+        <li>Python/Odoo Developer – Telematics Tech (2023–Present)</li>
+        <li>BSc. CSIT – Graduated 2023, GPA: 75.17%</li>
+        <li>IELTS Score – 7.5</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section px-6 pt-28 flex flex-col items-center justify-start text-center bg-gradient-to-b from-green-700 to-green-600">
+    <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+    <p class="mb-2">Email: <a href="mailto:your.email@example.com" class="underline">your.email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" class="underline">github.com/yourusername</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 text-sm bg-green-900 text-green-200">
+    &copy; 2025 Suprav Adhikari. All rights reserved.
+  </footer>
+
+</body>
+</html>
